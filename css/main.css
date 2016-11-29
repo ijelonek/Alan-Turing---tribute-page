@@ -1,0 +1,55 @@
+.container {
+  background-color: #efefe6;
+}
+
+h1, h2, h4, .top-quote{
+   color: #6b6b60;
+}
+
+h1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 46px;
+}
+
+h2, h4, li, .made-by{
+   font-family: 'PT Sans', sans-serif;
+
+}
+
+h2, .year {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 23px;
+}
+
+li{
+  font-size: 15.5px;
+}
+
+.final-quote{
+  padding: 30px 40px;
+  background-color: white;
+}
+
+.timeline {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.top-quote {
+  margin-top: 40px;
+  font-size: 55px;
+  font-family: 'Kristi', cursive;
+}
+
+.made-by{
+  font-size: 80%
+
+}
