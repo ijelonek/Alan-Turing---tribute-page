@@ -1,3 +1,8 @@
+.blue {
+  background-color: blue;
+}
+
+
 .container {
   background-color: #efefe6;
 }
@@ -31,6 +36,11 @@ li{
 .final-quote{
   padding: 30px 40px;
   background-color: white;
+}
+
+
+.final-quote p {
+  font-style: italic;s
 }
 
 .timeline {

@@ -48,9 +48,9 @@
            <li> <span class ="year">2009 </span> In response to a petition signed by thousands of people, The Prime Minister, Gordon Brown issues a public apology </li>
          </ul>
          </br>
-         <div class="final-quote text-justify">
+         <div id="final-quote" class="final-quote text-justify">
            <h5> "Turing was a quite brilliant mathematician, most famous for his work on breaking the German Enigma codes. It is no exaggeration to say that, without his outstanding contribution, the history of the Second World War could have been very different. He truly was one of those individuals we can point to whose unique contribution helped to turn the tide of war. The debt of gratitude he is owed makes it all the more horrifying, therefore, that he was treated so inhumanely."</h5>
-           <p class="text-right">Gordon Brown, UK's Prime Minister 2009 </p>
+           <p class="text-right"> Gordon Brown, UK's Prime Minister 2009 </p>
        </div>
        </br>
         <h4 class=text-center> References: </h4
@@ -63,4 +63,13 @@
    <p class="made-by text-center">made by <a href = "https://github.com/ijelonek"> Izabela Jelonek</a></p>
 </div>
   </body>
+  <script>
+    var quoteField = document.getElementById('final-quote');
+
+    var changeColour = quoteField.addEventListener('click', function(event){
+      quoteField.classList.addClass('blue');
+    })
+
+  </script>
+
 </html>
